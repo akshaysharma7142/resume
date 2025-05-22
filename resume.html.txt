@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - M Akshay Sharma</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        h2 {
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+        h3 {
+            margin-bottom: 5px;
+        }
+        .profile, .skills, .projects, .education, .contact {
+            margin-bottom: 30px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .links a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .skills ul, .languages ul, .projects ul {
+            padding-left: 20px;
+        }
+        .skills li, .languages li, .projects li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>M Akshay Sharma</h1>
+            <p>Aspiring Software Developer | Web Development Enthusiast</p>
+        </header>
+
+        <section class="profile">
+            <h2>Profile</h2>
+            <p>I am a second-year <strong>Computer Science and Engineering</strong> student at <strong>VIT-AP, Amaravati</strong>, with a strong passion for programming, web development, and problem-solving. I am continuously exploring new technologies and working on building a solid foundation in computer science concepts. As an enthusiastic learner, I love tackling challenges and developing real-world solutions through code. I am currently looking for opportunities to apply my skills, contribute to meaningful projects, and grow as a developer.</p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> C, C++, Python, Java (basic)</li>
+                <li><strong>Web Technologies:</strong> HTML, CSS</li>
+                <li><strong>Tools:</strong> VS Code, Jupyter Notebook</li>
+                <li><strong>Other:</strong> MySQL (basic), OOPs, DBMS, Machine Learning</li>
+            </ul>
+        </section>
+
+        <section class="languages">
+            <h2>Languages Known</h2>
+            <ul>
+                <li>Kannada</li>
+                <li>Telugu</li>
+                <li>English</li>
+                <li>Hindi</li>
+            </ul>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <h3>Water Leakage and Contamination Detection System</h3>
+            <p><strong>Tools:</strong> Arduino, Sensors, C++</p>
+            <ul>
+                <li>Developed a real-time water leakage and contamination detection system using Arduino software and sensors.</li>
+                <li>Designed and implemented a solution to monitor water quality and detect abnormal changes in flow and contamination levels.</li>
+                <li>Enabled early detection of potential issues, providing alerts to prevent property damage and ensure water safety.</li>
+                <li>Enhanced system reliability by integrating multiple sensors for accurate detection in both residential and industrial settings.</li>
+            </ul>
+
+            <h3>Personal Portfolio Website</h3>
+            <p>Developed a responsive portfolio website to showcase my skills, projects, and achievements. Built using HTML, CSS, and JavaScript, the site features interactive elements for better user experience and easy navigation.</p>
+            <p><strong>Link:</strong> <a href="https://github.com/yourusername/portfolio" target="_blank">Portfolio GitHub</a></p>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <p><strong>VIT-AP University</strong> - Amaravati</p>
+            <p><strong>B.Tech in Computer Science and Engineering</strong>, 2023 - Present</p>
+            <p>I am currently pursuing my undergraduate degree with a focus on Data Structures, Algorithms, Web Development, and Software Engineering. In addition to my academic coursework, I participate in coding competitions and hackathons, where I’ve developed problem-solving and critical-thinking skills.</p>
+            <ul>
+                <li><strong>Relevant Coursework:</strong> Data Structures, Algorithms, Operating Systems, Web Development, Database Management Systems</li>
+                <li><strong>Extracurriculars:</strong> Member of the university's Coding Club and Tech Team.</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:akshay.23bce9668@vitapstudent.ac.in">akshay.23bce9668@vitapstudent.ac.in</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/m-akshay-sharma-a7414b367" target="_blank">www.linkedin.com/in/m-akshay-sharma-a7414b367</a></li>
+                <li><strong>Twitter:</strong> <a href="https://x.com/Akshayshar47714" target="_blank">Akshay Sharma (@Akshayshar47714)</a></li>
+            </ul>
+        </section>
+
+        <footer style="text-align: center; margin-top: 30px; font-size: 0.9rem; color: #777;">
+            <p>© 2023 by M Akshay Sharma | <a href="mailto:akshay.23bce9668@vitapstudent.ac.in">akshay.23bce9668@vitapstudent.ac.in</a></p>
+        </footer>
+    </div>
+</body>
+</html>
